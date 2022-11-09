@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: rgba(221, 221, 230, 0.918);
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+}
+
+.head {
+    text-align: center;
+}
+.head figcaption {
+    color: rgb(68, 58, 58);
+    margin-top: 5px;
+}
+
+.text {
+    padding: 5px 15px;
+    background: rgb(233, 243, 233);
+    border: 1px solid rgb(112, 110, 110);
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.text1 {
+    text-align: center;
+}
+.text1 a {
+    font-size: 50px;
+}
+.text1 a:hover {
+    color: rgb(218, 26, 26);
+}
+.text1 h3 {
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-transform:uppercase;
+    text-decoration: underline;
+}
+
+.danil {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 25px rgba(0, 0, 0, 25);
+}
+
+.youtube {
+    background: rgb(236, 220, 178);
+    padding: 15px;
+    border-radius: 20px;
+    border: 10px solid rgb(183, 204, 143);
+    margin: 20px;
+    text-align: center;
+}
+
+.list {
+    text-align: left;
+    margin: 0px;
+}
+.list li {
+    margin-bottom: 5px;
+    border-bottom: 2px solid rgb(183, 204, 143);
+}
+
+/*Вторая страница*/
+
+.container1 {
+    max-width: 1500px;
+    margin: auto;
+}
+
+.head1 {
+    text-align: center;
+}
+.photo {
+    border-radius: 20px;
+    height: 350px;
+    width: 30%; 
+    margin-top: 10px;
+    box-sizing: border-box;
+    margin: 10px 5px;
+    border: 2px solid rgb(63, 60, 60);
+}
+
+.ph {
+    background-color: rgb(233, 224, 213);
+    border-radius: 20px;
+    border: 1px solid rgb(82, 73, 73);
+    margin: 10px;
+    max-width: px;
+}
+
+.text2 {
+    margin:auto;
+    padding: 5px 15px;
+    background: rgb(233, 243, 233);
+    border: 1px solid rgb(112, 110, 110);
+    border-radius: 20px;
+    margin-bottom: 10px;
+    max-width: 400px;
+}
+
+.table {
+    margin:auto;
+    padding: 5px 15px;
+    background: rgb(233, 243, 233);
+    border: 1px solid rgb(112, 110, 110);
+    border-radius: 20px;
+    margin-bottom: 10px;
+    max-width: 800px;
+    width: 100%;
+}
+.table h2 {
+    text-align: center;
+}
+.table td {
+    padding-bottom:10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(43, 53, 50);
+    border: 2px solid rgb(112, 110, 110);
+    border-radius: 5px;
+}
+.table th {
+    padding-bottom:10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(25, 31, 29);
+    border: 2px solid rgb(112, 110, 110);
+    border-radius: 5px;
+}
+.table > .none {
+    border: none;
+}
